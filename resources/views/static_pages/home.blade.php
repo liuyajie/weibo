@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title','首页-')
+@section('title','首页')
 @section('content')
     <div class="jumbotron">
     <h1>Hello Test</h1>
