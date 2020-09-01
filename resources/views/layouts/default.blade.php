@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title','WeiBo')</title>
     <link rel="stylesheet" href="{{asset('bootstrap-3.4.1/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/base.css')}}">
 </head>
 <body>
     @include('layouts._header')
