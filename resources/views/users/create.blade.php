@@ -16,15 +16,15 @@
                 </div>
                 <div class="form-group">
                     <label for="email">邮箱:</label>
-                    <input type="email" name="email" value="{{old('name')}}" class="form-control"/>
+                    <input type="email" name="email" value="{{old('email')}}" class="form-control"/>
                 </div>
                 <div class="form-group">
                     <label for="password">密码:</label>
-                    <input type="password" name="password" value="{{old('name')}}" class="form-control"/>
+                    <input type="password" name="password" value="{{old('password')}}" class="form-control"/>
                 </div>
                 <div class="form-group">
                     <label for="password_confirmation">确认密码:</label>
-                    <input type="password" name="password_confirmation" value="{{old('name')}}" class="form-control"/>
+                    <input type="password" name="password_confirmation" value="{{old('password_confirmation')}}" class="form-control"/>
                 </div>
                 <button type="submit" class="btn btn-primary">注册</button>
             </form>

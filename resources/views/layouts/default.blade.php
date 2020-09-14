@@ -11,6 +11,7 @@
 <body>
     @include('layouts._header')
     <div class="container-fluid">
+        @include('shared._message')
         @yield('content')
     </div>
     @include('layouts._footer')
